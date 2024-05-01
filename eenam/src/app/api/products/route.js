@@ -1,5 +1,4 @@
 import { query } from "@/libs/db";
-
 export async function GET(request) {
   const products = await query({
     query: "SELECT * FROM products",
@@ -11,3 +10,4 @@ export async function GET(request) {
     status: 200,
   })
 }
+

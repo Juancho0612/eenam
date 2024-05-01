@@ -29,8 +29,10 @@ module.exports = {
         button: "#e41e8d",
       },
       backgroundImage: {
-        hero: "url('/img/bg.jpg')",
+        bgg: "url(https://img.freepik.com/vector-gratis/bokeh-fondo-realista_23-2149321460.jpg?w=996&t=st=1714159229~exp=1714159829~hmac=832f697f7d9c7136930bc8381e824a71ccfb57793a22b667c79f2ac9a60be818)",
+        hero: "url('/img/bg.jpg')"
       },
+      
     },
   },
   plugins: [],

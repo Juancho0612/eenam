@@ -19,12 +19,12 @@ export default function RootLayout({ children }) {
       <SidebarProvider>
         <CartProvider>
           <ProductProvider>
-            <body className={inter.className}>
-              <Header/>
-              {children}
-              <Sidebar/>
-              <Footer/>
-              </body>
+            <body >
+              <Header />
+              <main style={{ paddingTop: "80px" }}>{children}</main>
+              <Sidebar />
+              <Footer />
+            </body>
           </ProductProvider>
         </CartProvider>
       </SidebarProvider>
